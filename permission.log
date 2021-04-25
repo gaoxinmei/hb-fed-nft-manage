@@ -1,0 +1,47 @@
+System: page:sys
+    Administrator: page:sys:user
+        Add: sys:user:save
+        Change: sys:user:update
+        Delete: sys:user:delete
+        Search: sys:user:list
+        Reset password: sys:user:resetPass
+        Reset GA: sys:user:resetGA
+    Role: page:sys:role
+        Add: sys:role:save
+        Change: sys:role:update
+        Delete: sys:role:delete
+        Search: sys:role:list
+    Department: page:sys:dept
+        Add: sys:dept:save
+        Change: sys:dept:update
+        Delete: sys:dept:delete
+        Search: sys:dept:list
+    Change password: sys:user:password
+财务管理: page:report:report
+    财务日报: page:report:report:daily
+        财务报表-财务日报查询: report:report:daily:query
+        财务报表-财务日报导出: report:report:daily:export
+钱包管理: page:baladjust
+    余额调节表-法币: page:baladjust:bankBalAdjust
+        生成余额调节表: baladjust:bankBalAdjust:genBalAdjust
+        导出余额调节表: baladjust:bankBalAdjust:exportBalAdjust
+        手工勾兑列表: baladjust:bankBalAdjust:manualBlendList
+        确认勾兑: baladjust:bankBalAdjust:manualBlendSubmit
+        执行对帐: baladjust:bankBalAdjust:doRecon
+        手工勾兑历史记录列表: baladjust:bankBalAdjust:manualBlendHistoryList
+        手工勾兑历史记录详情: baladjust:bankBalAdjust:manualBlendHistoryInfo
+        上传银行流水: baladjust:bankBalAdjust:uploadBankFile
+        查询上传银行流水操作日志: baladjust:bankBalAdjust:bankFileLogList
+        查询某日期是否上传文件: baladjust:bankBalAdjust:bankFileUploadLog
+    余额调节表-非法币: page:baladjust:walletBalAdjust
+        同步钱包流水记录: baladjust:walletBalAdjust:syncWalletFlow
+        生成余额调节表: baladjust:walletBalAdjust:genBalAdjust
+        导出余额调节表: baladjust:walletBalAdjust:exportBalAdjust
+        手工勾兑列表: baladjust:walletBalAdjust:manualBlendList
+        确认勾兑: baladjust:walletBalAdjust:manualBlendSubmit
+        手工勾兑历史记录列表: baladjust:walletBalAdjust:manualBlendHistoryList
+        手工勾兑历史记录详情: baladjust:walletBalAdjust:manualBlendHistoryInfo
+平台资产管理: page:page:assetrecon
+    平台资产对账: page:assetrecon:assetRecon
+        平台资产对帐表: assetrecon:assetRecon:assetReconList
+        导出平台资产对帐表: assetrecon:assetRecon:exportAssetRecon
